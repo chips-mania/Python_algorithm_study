@@ -13,7 +13,7 @@ basket = [i + 1 for i in range(N)]
 # M회 공을 교환
 for _ in range(M):
 
-    # i, j, k 입력
+    # i, j 입력
     i, j = map(int, input().split())
     
     # a, b = b, a : 교환
