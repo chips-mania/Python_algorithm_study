@@ -3,7 +3,7 @@
 # StudentNumbers는 [1, 2, ... , 30]
 StudentNumbers = list(range(1, 31))
 
-# 28회 숫자를 입력받아서 반복
+# 28회 숫자를 입력받아 반복
 for _ in range(1, 29):
     n = int(input())
 
