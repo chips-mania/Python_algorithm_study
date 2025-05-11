@@ -9,5 +9,4 @@ for _ in range(10):
     s.add(n % 42)
 
 # set의 길이를 세어서 print
-count = len(s)
-print(count)
+print(len(s))
