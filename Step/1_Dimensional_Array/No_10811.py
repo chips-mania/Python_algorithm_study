@@ -10,6 +10,7 @@ for _ in range(M):
 
     # [start:end:-1] start와 stop을 생략하면 전체 뒤에서 앞으로를 의미
     # basket[i-1:j][::-1] -> i-1에서 j까지 슬라이싱 후 뒤집음 
+    # [i:j]가 아닌 [i-1:j]임을 주의
     basket[i-1:j] = basket[i-1:j][::-1]
 
 print(*basket)
